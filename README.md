@@ -17,11 +17,11 @@ last update: 2013.6.5
 
 3.  Something Notable:
 
-1).Copy the apropriate architecture's .a library and the apropriate resource bundle when you test.
+   1).Copy the apropriate architecture's .a library and the apropriate resource bundle when you test.
 
-2).You app's mainWindow's rootViewController should not be nil.
+   2).You app's mainWindow's rootViewController should not be nil.
 
-3).Add -ObjC linker flag to your other link flag.
+   3).Add -ObjC linker flag to your other link flag.
 
 
 4.HOW TO USE:
@@ -67,4 +67,12 @@ QQ：1263572458 QQ群：322622433
 意见反馈及技术支持：Email:support@theindex.com,aa@theindex.com
 
 地址：朝阳区西大望路甲3号 蓝堡国际中心1座2303
+////////////////////////////////////////////////////////
 
+![alt tag](https://raw.github.com/oday0311/Cuzy-iOS-demo/master/pic/1.png)
+
+![alt tag](https://raw.github.com/oday0311/Cuzy-iOS-demo/master/pic/2.png)
+
+![alt tag](https://raw.github.com/oday0311/Cuzy-iOS-demo/master/pic/3.png)
+
+![alt tag](https://raw.github.com/oday0311/Cuzy-iOS-demo/master/pic/4.png)
