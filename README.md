@@ -4,17 +4,23 @@ Cuzy-iOS-demo
 iOS demo, that shows the capabilities of Cuzy SDK (淘宝客), that can be found on http://www.cuzy.com
 
 =========================================
+
 last update: 2013.6.5
+
 ===============version 1.0===============
 
-1.  this is a SDK for taobaoke
+1.  this is a IOS APP SDK for taobaoke (Also has a sdk for android)
 
-2.  http://www.cuzy.com
+2.  you can download the sdk at : http://cuzy.com/index/download_sdk
 
 3.  Something Notable:
-    1).Copy the apropriate architecture's .a library and the apropriate resource bundle when you test.
-    2).You app's mainWindow's rootViewController should not be nil.
-    3).Add -ObjC linker flag to your other link flag.
+
+1).Copy the apropriate architecture's .a library and the apropriate resource bundle when you test.
+
+2).You app's mainWindow's rootViewController should not be nil.
+
+3).Add -ObjC linker flag to your other link flag.
+
 
 4.HOW TO USE:
 #import "CuzyAdSDK.h"
