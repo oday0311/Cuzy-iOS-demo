@@ -333,8 +333,6 @@
 		5E1EFE2114A0BA65008062C1 /* main */ = {
 			isa = PBXGroup;
 			children = (
-				5EF3AA4914D738BB00FDD48F /* ZUUIRevealController */,
-				FA0369CB174F5A81006002C7 /* CollapseClick */,
 				FA0369D7174F5AA5006002C7 /* ViewController.h */,
 				FA0369D8174F5AA5006002C7 /* ViewController.m */,
 				FA0369D9174F5AA5006002C7 /* ViewController.xib */,
@@ -386,10 +384,9 @@
 		5E605B9A14A081F900853025 = {
 			isa = PBXGroup;
 			children = (
-				FA7B4409175EE097002BD97A /* ImageIO.framework */,
 				FA41EC331755D6D70008299E /* icon@2x.png */,
 				FA41EC371755D6F30008299E /* icon.png */,
-				FA82A4641754917C0052196B /* sdk */,
+				FA82A4641754917C0052196B /* CUZY-SDK */,
 				5E605BAF14A081F900853025 /* RevealControllerProject */,
 				5E605BA814A081F900853025 /* Frameworks */,
 				5E605BA614A081F900853025 /* Products */,
@@ -407,6 +404,7 @@
 		5E605BA814A081F900853025 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA7B4409175EE097002BD97A /* ImageIO.framework */,
 				5E5A2CFF14E0CD8D0042AE1E /* MapKit.framework */,
 				5E605BA914A081F900853025 /* UIKit.framework */,
 				5E605BAB14A081F900853025 /* Foundation.framework */,
@@ -418,21 +416,13 @@
 		5E605BAF14A081F900853025 /* RevealControllerProject */ = {
 			isa = PBXGroup;
 			children = (
+				FABC3C95176EE692001811CF /* thirdParty */,
 				FA41EC2A1755D5150008299E /* res */,
 				5E605BB814A081F900853025 /* AppDelegate.h */,
 				5E605BB914A081F900853025 /* AppDelegate.m */,
-				FA41EC57175719490008299E /* JSONKit.h */,
-				FA41EC581757194A0008299E /* JSONKit.m */,
 				FA0369DC174F63EE006002C7 /* DataSingleton.h */,
 				FA0369DD174F63EF006002C7 /* DataSingleton.m */,
-				FA7B4404175EDFB2002BD97A /* SCGIFImageView.h */,
-				FA7B4405175EDFB2002BD97A /* SCGIFImageView.m */,
 				FA7B4407175EE051002BD97A /* loading.gif */,
-				FAC9CB9F1758B1E5003EF05F /* LoadingMoreFooterView.h */,
-				FAC9CBA01758B1E5003EF05F /* LoadingMoreFooterView.m */,
-				FA41EC1F17559FBE0008299E /* imageCacheManager.h */,
-				FA41EC2017559FBE0008299E /* imageCacheManager.m */,
-				FA5C7EDB17647906000C4384 /* SVSegmentedControl */,
 				FA41EC72175748CB0008299E /* UINavigationController+CustomBackButton.h */,
 				FA41EC73175748CB0008299E /* UINavigationController+CustomBackButton.m */,
 				FA41EC74175748CD0008299E /* UIViewController+CustomBackButton.h */,
@@ -522,7 +512,7 @@
 			path = SVSegmentedControl;
 			sourceTree = "<group>";
 		};
-		FA82A4641754917C0052196B /* sdk */ = {
+		FA82A4641754917C0052196B /* CUZY-SDK */ = {
 			isa = PBXGroup;
 			children = (
 				FA41EC3C1755E15E0008299E /* libCuzyAdSDK_universal.a */,
@@ -531,8 +521,26 @@
 				FA82A4661754917C0052196B /* CuzyAdSDK.h */,
 				FA82A4671754917C0052196B /* CuzyAdSDKResource.bundle */,
 			);
-			name = sdk;
+			name = "CUZY-SDK";
 			path = RevealControllerProject/sdk;
+			sourceTree = "<group>";
+		};
+		FABC3C95176EE692001811CF /* thirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				5EF3AA4914D738BB00FDD48F /* ZUUIRevealController */,
+				FA0369CB174F5A81006002C7 /* CollapseClick */,
+				FA5C7EDB17647906000C4384 /* SVSegmentedControl */,
+				FA41EC57175719490008299E /* JSONKit.h */,
+				FA41EC581757194A0008299E /* JSONKit.m */,
+				FAC9CB9F1758B1E5003EF05F /* LoadingMoreFooterView.h */,
+				FAC9CBA01758B1E5003EF05F /* LoadingMoreFooterView.m */,
+				FA41EC1F17559FBE0008299E /* imageCacheManager.h */,
+				FA41EC2017559FBE0008299E /* imageCacheManager.m */,
+				FA7B4404175EDFB2002BD97A /* SCGIFImageView.h */,
+				FA7B4405175EDFB2002BD97A /* SCGIFImageView.m */,
+			);
+			name = thirdParty;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
