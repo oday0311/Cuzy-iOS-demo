@@ -1,10 +1,4 @@
-//
-//  ViewController.m
-//  CollapseClick
-//
-//  Created by Ben Gordon on 2/28/13.
-//  Copyright (c) 2013 Ben Gordon. All rights reserved.
-//
+
 #import "AppDelegate.h"
 #import "ViewController.h"
 #import "DataSingleton.h"
@@ -16,6 +10,10 @@
 
 @implementation ViewController
 
+- (BOOL)shouldAutorotate
+{
+    return NO;
+}
 
 - (void)viewDidLoad
 {
